@@ -1,10 +1,12 @@
-import Proyects from "@/components/shared/root/Proyects"
+import Proyect from "@/components/shared/proyect/Proyect"
 import { ModeToggle } from "@/components/shared/ThemeSelector"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
+import { getProyects } from "@/lib/actions/proyects.actions"
 import Link from "next/link"
 
-export default function Component() {
+export default async function page() {
+  const proyects = await getProyects()
+
   return (
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -56,31 +58,12 @@ export default function Component() {
               Current Projects
             </h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <Proyects/>
-              {/* <Card>
-                <CardContent className="p-4">
-                  <h3 className="font-bold mb-2">AI-Driven Analytics Platform</h3>
-                  <p className="text-sm text-gray-500">
-                    Developing an advanced analytics system using machine learning for a Fortune 500 company.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-4">
-                  <h3 className="font-bold mb-2">Cloud Migration Strategy</h3>
-                  <p className="text-sm text-gray-500">
-                    Assisting a healthcare provider in transitioning their infrastructure to a secure cloud environment.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-4">
-                  <h3 className="font-bold mb-2">IoT Supply Chain Solution</h3>
-                  <p className="text-sm text-gray-500">
-                    Creating an IoT-based system to optimize supply chain operations for a global manufacturer.
-                  </p>
-                </CardContent>
-              </Card> */}
+              {proyects?.data?.map(e => <Proyect
+                key={e.name}
+                name={e.name}
+                url={e.subdomain}
+                desc={e.description}
+              />)}
             </div>
           </div>
         </section>
