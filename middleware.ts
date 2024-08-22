@@ -10,15 +10,28 @@ const getSubdomain = (request: NextRequest): string => {
 }
 
 export async function middleware(request: NextRequest, response: NextResponse) {
-  const subdomain = getSubdomain(request)
-
-  if(subdomain === 'test') {
-    return NextResponse.rewrite(new URL('/test', request.url));
+  // Exceptuar archivos estáticos
+  if (request.nextUrl.pathname.match(/\.(css|js|png|jpg|svg|ico|woff2|woff)$/)) {
+    return NextResponse.next();
   }
 
-  if(subdomain === 'bucitos') {
-    return NextResponse.rewrite(new URL('/bucitos', request.url));
+  const subdomain = getSubdomain(request);
+  // const host = request.headers.get('host');
+
+  // console.log(host, request.nextUrl.pathname);
+
+
+  // if(host === 'localhost:3000' && request.nextUrl.pathname === '/short-url'){
+  //   return NextResponse.redirect(new URL(`short-url.${host}`, request.url))
+  // }
+
+  if (subdomain === 'short-url') {
+    return NextResponse.rewrite(new URL('/short-url/short' + request.nextUrl.pathname, request.url));
   }
 
-  return NextResponse.next(); // Return updated session for users
+  if (subdomain === 'bucitos') {
+    return NextResponse.rewrite(new URL('/bucitos/bucitos' + request.nextUrl.pathname, request.url));
+  }
+
+  return NextResponse.next();
 }

@@ -1,30 +1,34 @@
 import { ActionResponse } from "../constants";
 import { Proyect } from "../models/proyect.model";
+import { handleError } from "../utils";
 
 interface GetProyectsResponse extends ActionResponse {
   data: Proyect[] | null
 }
 
-export async function getProyects(): Promise<GetProyectsResponse>{
+export async function getProyects(): Promise<GetProyectsResponse> {
   try {
     const proyectsName = process.env.PROYECTS?.split(' ');
-    const proyectsSubdomain = process.env.PROYECTS_URL?.split(' ');
+    const proyectsUrl = process.env.PROYECTS_URL?.split(' ');
     const proyectsDesc = process.env.PROYECTS_DESC?.split('~');
 
-    if (!proyectsName || !proyectsSubdomain || !proyectsDesc) {
+    if (!proyectsName || !proyectsUrl || !proyectsDesc) {
       throw 'Missing some of Proyects env variables'
     }
 
-    const proyectsList:Proyect[] = []
+    const proyectsList: Proyect[] = []
 
     for (let index = 0; index < proyectsName.length; index++) {
-      const proyect:Proyect = {
+      const proyect: Proyect = {
         name: proyectsName[index],
         description: proyectsDesc[index],
-        subdomain: proyectsSubdomain[index]
+        url: new URL(proyectsUrl[index])
       }
 
-      if(!proyect.name || !proyect.description || !proyect.subdomain) throw 'Missing props for proyect'
+      // console.log(proyect.url);
+      
+
+      if (!proyect.name || !proyect.description || !proyect.url) throw 'Missing props for proyect'
 
       proyectsList.push(proyect)
     }
@@ -34,15 +38,8 @@ export async function getProyects(): Promise<GetProyectsResponse>{
       error: null,
     }
   } catch (error) {
-    console.error(error);
-    if (typeof error === 'string') {
-      return {
-        error: error,
-        data: null
-      }
-    }
     return {
-      error: 'Error in getProyects action, Please check console for more detail',
+      error: handleError(error),
       data: null
     }
   }

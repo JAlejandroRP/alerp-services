@@ -7,6 +7,10 @@ import Link from "next/link"
 export default async function page() {
   const proyects = await getProyects()
 
+  if(proyects.error) {
+    console.trace(proyects.error)
+  }
+
   return (
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -61,7 +65,7 @@ export default async function page() {
               {proyects?.data?.map(e => <Proyect
                 key={e.name}
                 name={e.name}
-                url={e.subdomain}
+                url={e.url.href}
                 desc={e.description}
               />)}
             </div>

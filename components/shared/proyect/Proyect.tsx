@@ -1,3 +1,4 @@
+'use server'
 import { Card, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 import React from 'react'
