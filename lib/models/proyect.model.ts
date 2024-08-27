@@ -1,5 +1,5 @@
 export interface Proyect {
   name: string,
-  subdomain: string,
+  url: URL,
   description: string
 }
