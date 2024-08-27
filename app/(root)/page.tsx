@@ -84,11 +84,12 @@ export default async function page() {
               Nuestros Servicios
             </h2>
             <div className="grid gap-6 lg:grid-cols-2">
-              {Services.map(service => Service({
-                title: service.title,
-                description: service.description,
-                icon: service.icon
-              })
+              {Services.map(service => <Service
+                key={service.title}
+                title={service.title}
+                description={service.description}
+                icon={service.icon}
+              />
               )}
             </div>
           </div>
