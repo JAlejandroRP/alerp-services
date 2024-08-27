@@ -5,10 +5,8 @@ import React, { ReactNode } from 'react'
 
 const page = async ({
   params,
-  children
 }: {
   params: { domain: string },
-  children: ReactNode
 }) => {
 
   return (
