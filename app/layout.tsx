@@ -16,6 +16,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const tenantInfo = {
+    subdomain: 'bucitos',
+    title: 'Bucitos'
+  }
+
   return (
     <html lang="en" suppressHydrationWarning className="dark">
       <body

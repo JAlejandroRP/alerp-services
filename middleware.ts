@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { updateSession } from "./lib/supabase/middleware";
 
 const getSubdomain = (request: NextRequest): string => {
   const host = request.headers.get('host');
@@ -10,28 +11,34 @@ const getSubdomain = (request: NextRequest): string => {
 }
 
 export async function middleware(request: NextRequest, response: NextResponse) {
+  await updateSession(request)
+  // console.log(session);
+
   // Exceptuar archivos estáticos
   if (request.nextUrl.pathname.match(/\.(css|js|png|jpg|svg|ico|woff2|woff)$/)) {
+    // if(session)
+    // return session;
     return NextResponse.next();
   }
 
+
+  if (request.nextUrl.pathname.includes('/sign-in') ||
+    request.nextUrl.pathname.includes('/sign-up')) {
+    return NextResponse.next()
+  }
+
+
   const subdomain = getSubdomain(request);
-  // const host = request.headers.get('host');
-
-  // console.log(host, request.nextUrl.pathname);
-
-
-  // if(host === 'localhost:3000' && request.nextUrl.pathname === '/short-url'){
-  //   return NextResponse.redirect(new URL(`short-url.${host}`, request.url))
-  // }
 
   if (subdomain === 'short-url') {
-    return NextResponse.rewrite(new URL('/short-url/short' + request.nextUrl.pathname, request.url));
+    return NextResponse.rewrite(new URL('/short-url' + request.nextUrl.pathname, request.url));
   }
 
   if (subdomain === 'bucitos') {
-    return NextResponse.rewrite(new URL('/bucitos/bucitos' + request.nextUrl.pathname, request.url));
+    return NextResponse.rewrite(new URL('/bucitos' + request.nextUrl.pathname, request.url));
   }
+
+
 
   return NextResponse.next();
 }

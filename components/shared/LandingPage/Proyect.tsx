@@ -7,8 +7,8 @@ const Proyect = ({ name, url, desc }: { name: string, url: string, desc: string 
   return <Link
     href={url}
   >
-    <Card>
-      <CardContent className="p-4">
+    <Card className='h-full hover:shadow-lg'>
+      <CardContent className='p-4'>
         <h3 className="font-bold mb-2">{name}</h3>
         <p className="text-sm text-gray-500">
           {desc}

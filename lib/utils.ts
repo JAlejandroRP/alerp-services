@@ -6,16 +6,18 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function handleError(error: any): string {
-  if (error instanceof Object) {
-    if ((error as Object).hasOwnProperty('code')) {
-      return error.code
-    }
-
-    return JSON.stringify(error)
-  }
-
   if (typeof error === 'string') {
     return error
+  }
+
+  if (error instanceof Object) {
+    const code = (error as Object).hasOwnProperty('code') ? error.code : null
+    const name = (error as Object).hasOwnProperty('name') ? error.name : null
+
+    if (code) return error.code
+    if (name) return error.name
+
+    return JSON.stringify(error)
   }
 
   console.trace('Not handled error, check console', error);
