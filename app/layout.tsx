@@ -17,17 +17,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="dark">
+    <html lang="en" suppressHydrationWarning>
       <body
       >
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        >
+        > */}
           {children}
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

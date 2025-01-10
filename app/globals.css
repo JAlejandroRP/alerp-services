@@ -68,3 +68,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .group:hover .group-hover\:translate-y-full {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .group:hover .group-hover\:translate-y-0 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: transform 0.3s ease-in-out 0.15s, opacity 0.3s ease-in-out 0.15s;
+  }
+}
+
