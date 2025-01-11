@@ -13,7 +13,7 @@ export interface Props {
     width?: any
     height?: any
     layoutId?: string
-
+    "variant"?: 'Desktop' | 'Tablet' | 'Phone'
 }
 
 const ServicesSectionFramerComponent = (props: Props) => any

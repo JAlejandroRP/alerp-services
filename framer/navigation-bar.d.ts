@@ -13,7 +13,9 @@ export interface Props {
     width?: any
     height?: any
     layoutId?: string
-
+    "variant"?: 'Desktop' | 'Phone' | 'Phone Open'
+    "easeOut300s"?: any
+    "branName"?: string
 }
 
 const NavigationBarFramerComponent = (props: Props) => any

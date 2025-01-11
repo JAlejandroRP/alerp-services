@@ -10,7 +10,7 @@ import { defaultEvents, NullState, useIconSelection, } from './chunk-3UM25V4K.js
 import { Fragment as Fragment4, } from 'react';
 import { ContextProviders, } from 'unframer';
 
-// https :https://framerusercontent.com/modules/5Wat0UqwAdTAcAus4iSD/PiK7AuetCuHVw2GapD4N/zA1FP2A_7.js
+// https :https://framerusercontent.com/modules/5Wat0UqwAdTAcAus4iSD/4EcRudDD2ljcsyFZDCGw/zA1FP2A_7.js
 import { jsx as _jsx4, jsxs as _jsxs2, } from 'react/jsx-runtime';
 import {
   addFonts as addFonts3,
@@ -895,14 +895,14 @@ addFonts2(FramerTbJPkVKsy, [{
   },],
 }, ...FeatherFonts,], { supportsExplicitInterCodegen: true, },);
 
-// https :https://framerusercontent.com/modules/5Wat0UqwAdTAcAus4iSD/PiK7AuetCuHVw2GapD4N/zA1FP2A_7.js
+// https :https://framerusercontent.com/modules/5Wat0UqwAdTAcAus4iSD/4EcRudDD2ljcsyFZDCGw/zA1FP2A_7.js
 var MotionDivWithFXWithOptimizedAppearEffect = withOptimizedAppearEffect(withFX(motion3.div,),);
 var RichTextWithFXWithOptimizedAppearEffect = withOptimizedAppearEffect(withFX(RichText3,),);
 var PrimaryButtonFonts = getFonts2(stdin_default,);
 var SecondaryButtonWithIconFonts = getFonts2(stdin_default2,);
 var ImageWithFXWithOptimizedAppearEffect = withOptimizedAppearEffect(withFX(Image,),);
 var cycleOrder2 = ['Lk2T1IRKr', 'beqapQxM0', 'KTZGSJBDk',];
-var serializationHash3 = 'framer-bS9J3';
+var serializationHash3 = 'framer-cbDOe';
 var variantClassNames3 = { beqapQxM0: 'framer-v-1fsh02y', KTZGSJBDk: 'framer-v-19k6tyf', Lk2T1IRKr: 'framer-v-1jytkn', };
 function addPropertyOverrides3(overrides, ...variants) {
   const nextOverrides = {};
@@ -1202,10 +1202,9 @@ var Component3 = /* @__PURE__ */ React4.forwardRef(function (props, ref,) {
                                 111.5 + 0 + 401 + 8,
                             },
                             KTZGSJBDk: {
-                              y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) +
-                                (0 +
-                                  (((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
-                                      721) - 0 - 645) / 2) +
+                              y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 0 +
+                                ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
+                                      1202) - 0 - 1126) / 2 + 0 + 0) +
                                 0 + 0 + 0 + 354 + 8 + 0,
                             },
                           },
@@ -1254,10 +1253,9 @@ var Component3 = /* @__PURE__ */ React4.forwardRef(function (props, ref,) {
                                 111.5 + 0 + 401 + 8,
                             },
                             KTZGSJBDk: {
-                              y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) +
-                                (0 +
-                                  (((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
-                                      721) - 0 - 645) / 2) +
+                              y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 0 +
+                                ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
+                                      1202) - 0 - 1126) / 2 + 0 + 0) +
                                 0 + 0 + 0 + 354 + 8 + 64,
                             },
                           },
@@ -1375,7 +1373,7 @@ var Component3 = /* @__PURE__ */ React4.forwardRef(function (props, ref,) {
                 ],
               },),
             },),
-            isDisplayed3() && /* @__PURE__ */ _jsx4(motion3.div, {
+            /* @__PURE__ */ _jsx4(motion3.div, {
               className: 'framer-38sqpf',
               'data-framer-name': 'd',
               layoutDependency,
@@ -1415,16 +1413,11 @@ var Component3 = /* @__PURE__ */ React4.forwardRef(function (props, ref,) {
                                               700) - 0) * 1 - 0) * 1 - 0 - 0) / 1,
                                   ) * 1 + 0)) / 2 + 0 + 0),
                     ),
-                    pixelHeight: 1024,
-                    pixelWidth: 1792,
+                    pixelHeight: 3e3,
+                    pixelWidth: 2e3,
                     positionX: 'center',
                     positionY: 'bottom',
-                    sizes: `calc(max((${
-                      (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
-                    } - 32px) / 2, 1px) - 64px)`,
-                    src: 'https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp?scale-down-to=1024',
-                    srcSet:
-                      'https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp?scale-down-to=512 512w,https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp?scale-down-to=1024 1024w,https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp 1792w',
+                    src: 'https://framerusercontent.com/images/PPtcveC49JmtIVhyG1pdeFKnAI.jpg',
                   },
                   className: 'framer-kqn8jt',
                   'data-framer-appear-id': 'kqn8jt',
@@ -1446,23 +1439,41 @@ var Component3 = /* @__PURE__ */ React4.forwardRef(function (props, ref,) {
                                     0 - 700) / 2) +
                               0 + 0 + 0,
                           ),
-                          pixelHeight: 1024,
-                          pixelWidth: 1792,
+                          pixelHeight: 3e3,
+                          pixelWidth: 2e3,
                           positionX: 'center',
                           positionY: 'bottom',
-                          sizes: `calc(max((${
+                          src: 'https://framerusercontent.com/images/PPtcveC49JmtIVhyG1pdeFKnAI.jpg',
+                        },
+                      },
+                      KTZGSJBDk: {
+                        background: {
+                          alt: 'Photo of luxury living room',
+                          intrinsicHeight: 688,
+                          intrinsicWidth: 588,
+                          loading: getLoadingLazyAtYPosition(
+                            ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 0 +
+                              ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) || 1202) -
+                                    0 - 1126) / 2 + 645 + 64) +
+                              0 + 0 + 0,
+                          ),
+                          pixelHeight: 3e3,
+                          pixelWidth: 2e3,
+                          positionX: 'center',
+                          positionY: 'bottom',
+                          sizes: `max(${
                             (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
-                          } - 32px) / 2, 1px) - 16px)`,
-                          src: 'https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp?scale-down-to=1024',
+                          }, 1px)`,
+                          src: 'https://framerusercontent.com/images/PPtcveC49JmtIVhyG1pdeFKnAI.jpg?scale-down-to=1024',
                           srcSet:
-                            'https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp?scale-down-to=512 512w,https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp?scale-down-to=1024 1024w,https://framerusercontent.com/images/tujwxYFXwyXWIRQf969KDwR8D7Q.webp 1792w',
+                            'https://framerusercontent.com/images/PPtcveC49JmtIVhyG1pdeFKnAI.jpg?scale-down-to=1024 682w,https://framerusercontent.com/images/PPtcveC49JmtIVhyG1pdeFKnAI.jpg?scale-down-to=2048 1365w,https://framerusercontent.com/images/PPtcveC49JmtIVhyG1pdeFKnAI.jpg 2000w',
                         },
                       },
                     },
                     baseVariant,
                     gestureVariant,
                   ),
-                  children: /* @__PURE__ */ _jsx4(motion3.div, {
+                  children: isDisplayed3() && /* @__PURE__ */ _jsx4(motion3.div, {
                     'aria-label': 'A triangular mask element for the hero image',
                     className: 'framer-1iom8ah',
                     layoutDependency,
@@ -1486,52 +1497,54 @@ var Component3 = /* @__PURE__ */ React4.forwardRef(function (props, ref,) {
 },);
 var css8 = [
   '@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }',
-  '.framer-bS9J3.framer-1hvelkf, .framer-bS9J3 .framer-1hvelkf { display: block; }',
-  '.framer-bS9J3.framer-1jytkn { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: 700px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1200px; }',
-  '.framer-bS9J3 .framer-tssug1 { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 100%; justify-content: flex-end; overflow: hidden; padding: 0px; position: relative; width: 1px; }',
-  '.framer-bS9J3 .framer-cae65x { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: 100%; justify-content: center; max-width: 584px; padding: 0px 0px 0px 40px; position: relative; width: 1px; }',
-  '.framer-bS9J3 .framer-1ljohf0 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: 110px; justify-content: flex-start; overflow: visible; padding: 24px 0px 0px 0px; position: relative; width: 349px; }',
-  '.framer-bS9J3 .framer-1l0o523 { flex: 1 0 0px; height: 15px; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; z-index: 1; }',
-  '.framer-bS9J3 .framer-1vehtfq { flex: none; height: 2px; position: relative; width: 100px; }',
-  '.framer-bS9J3 .framer-1fy5zd7 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }',
-  '.framer-bS9J3 .framer-1t5czg, .framer-bS9J3 .framer-8xsnlp { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }',
-  '.framer-bS9J3 .framer-t7znx8 { flex: none; height: auto; max-width: 448px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }',
-  '.framer-bS9J3 .framer-1u1c0u6 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 8px 0px 8px 0px; position: relative; width: 100%; }',
-  '.framer-bS9J3 .framer-1qqrrla-container { flex: none; height: auto; position: relative; width: auto; }',
-  '.framer-bS9J3 .framer-d2vfth-container { flex: none; height: 48px; position: relative; width: 160px; }',
-  '.framer-bS9J3 .framer-8432z2 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-bS9J3 .framer-1gbctds { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-bS9J3 .framer-1wyiw13 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: 20px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 20px; }',
-  '.framer-bS9J3 .framer-1m8obji { flex: none; height: 20px; position: relative; text-decoration: none; width: 20px; }',
-  '.framer-bS9J3 .framer-38sqpf { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: 100%; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1px; }',
-  '.framer-bS9J3 .framer-zvzl2s { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100%; justify-content: center; overflow: hidden; padding: 0px 0px 0px 64px; position: relative; width: 1px; }',
-  '.framer-bS9J3 .framer-kqn8jt { flex: 1 0 0px; height: 1px; overflow: hidden; position: relative; width: 100%; }',
-  '.framer-bS9J3 .framer-1iom8ah { bottom: 0px; flex: none; height: 140px; left: 0px; overflow: hidden; position: absolute; width: 100px; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-bS9J3.framer-1jytkn, .framer-bS9J3 .framer-tssug1, .framer-bS9J3 .framer-cae65x, .framer-bS9J3 .framer-1ljohf0, .framer-bS9J3 .framer-1u1c0u6, .framer-bS9J3 .framer-8432z2, .framer-bS9J3 .framer-1gbctds, .framer-bS9J3 .framer-1wyiw13, .framer-bS9J3 .framer-38sqpf, .framer-bS9J3 .framer-zvzl2s { gap: 0px; } .framer-bS9J3.framer-1jytkn > *, .framer-bS9J3 .framer-38sqpf > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } .framer-bS9J3.framer-1jytkn > :first-child, .framer-bS9J3 .framer-tssug1 > :first-child, .framer-bS9J3 .framer-1ljohf0 > :first-child, .framer-bS9J3 .framer-1u1c0u6 > :first-child, .framer-bS9J3 .framer-1gbctds > :first-child, .framer-bS9J3 .framer-1wyiw13 > :first-child, .framer-bS9J3 .framer-38sqpf > :first-child { margin-left: 0px; } .framer-bS9J3.framer-1jytkn > :last-child, .framer-bS9J3 .framer-tssug1 > :last-child, .framer-bS9J3 .framer-1ljohf0 > :last-child, .framer-bS9J3 .framer-1u1c0u6 > :last-child, .framer-bS9J3 .framer-1gbctds > :last-child, .framer-bS9J3 .framer-1wyiw13 > :last-child, .framer-bS9J3 .framer-38sqpf > :last-child { margin-right: 0px; } .framer-bS9J3 .framer-tssug1 > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-bS9J3 .framer-cae65x > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-bS9J3 .framer-cae65x > :first-child, .framer-bS9J3 .framer-8432z2 > :first-child, .framer-bS9J3 .framer-zvzl2s > :first-child { margin-top: 0px; } .framer-bS9J3 .framer-cae65x > :last-child, .framer-bS9J3 .framer-8432z2 > :last-child, .framer-bS9J3 .framer-zvzl2s > :last-child { margin-bottom: 0px; } .framer-bS9J3 .framer-1ljohf0 > *, .framer-bS9J3 .framer-1u1c0u6 > * { margin: 0px; margin-left: calc(16px / 2); margin-right: calc(16px / 2); } .framer-bS9J3 .framer-8432z2 > * { margin: 0px; margin-bottom: calc(20px / 2); margin-top: calc(20px / 2); } .framer-bS9J3 .framer-1gbctds > * { margin: 0px; margin-left: calc(24px / 2); margin-right: calc(24px / 2); } .framer-bS9J3 .framer-1wyiw13 > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-bS9J3 .framer-zvzl2s > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } }',
-  '.framer-bS9J3.framer-v-1fsh02y.framer-1jytkn { height: min-content; width: 810px; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-tssug1 { height: 840px; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-cae65x, .framer-bS9J3.framer-v-1fsh02y .framer-38sqpf { height: min-content; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-1ljohf0 { height: 83px; order: 0; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-1l0o523 { order: 0; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-1t5czg, .framer-bS9J3.framer-v-19k6tyf .framer-1t5czg { order: 1; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-t7znx8, .framer-bS9J3.framer-v-19k6tyf .framer-t7znx8 { order: 2; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-1u1c0u6 { order: 3; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-8432z2, .framer-bS9J3.framer-v-19k6tyf .framer-8432z2 { order: 4; }',
-  '.framer-bS9J3.framer-v-1fsh02y .framer-zvzl2s { height: 700px; padding: 0px 0px 0px 16px; }',
-  '.framer-bS9J3.framer-v-19k6tyf.framer-1jytkn { gap: 64px; height: min-content; width: 357px; }',
-  '.framer-bS9J3.framer-v-19k6tyf .framer-tssug1 { flex-direction: column; height: min-content; }',
-  '.framer-bS9J3.framer-v-19k6tyf .framer-cae65x { flex: none; height: min-content; order: 0; padding: 0px 20px 11px 20px; width: 100%; }',
-  '.framer-bS9J3.framer-v-19k6tyf .framer-1ljohf0 { gap: 0px; height: 64px; order: 0; padding: 0px; width: 336px; }',
-  '.framer-bS9J3.framer-v-19k6tyf .framer-1u1c0u6 { flex-direction: column; order: 3; }',
-  '.framer-bS9J3.framer-v-19k6tyf .framer-1gbctds { justify-content: center; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-bS9J3.framer-v-19k6tyf.framer-1jytkn, .framer-bS9J3.framer-v-19k6tyf .framer-tssug1, .framer-bS9J3.framer-v-19k6tyf .framer-1ljohf0, .framer-bS9J3.framer-v-19k6tyf .framer-1u1c0u6 { gap: 0px; } .framer-bS9J3.framer-v-19k6tyf.framer-1jytkn > * { margin: 0px; margin-left: calc(64px / 2); margin-right: calc(64px / 2); } .framer-bS9J3.framer-v-19k6tyf.framer-1jytkn > :first-child, .framer-bS9J3.framer-v-19k6tyf .framer-1ljohf0 > :first-child { margin-left: 0px; } .framer-bS9J3.framer-v-19k6tyf.framer-1jytkn > :last-child, .framer-bS9J3.framer-v-19k6tyf .framer-1ljohf0 > :last-child { margin-right: 0px; } .framer-bS9J3.framer-v-19k6tyf .framer-tssug1 > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-bS9J3.framer-v-19k6tyf .framer-tssug1 > :first-child, .framer-bS9J3.framer-v-19k6tyf .framer-1u1c0u6 > :first-child { margin-top: 0px; } .framer-bS9J3.framer-v-19k6tyf .framer-tssug1 > :last-child, .framer-bS9J3.framer-v-19k6tyf .framer-1u1c0u6 > :last-child { margin-bottom: 0px; } .framer-bS9J3.framer-v-19k6tyf .framer-1ljohf0 > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-bS9J3.framer-v-19k6tyf .framer-1u1c0u6 > * { margin: 0px; margin-bottom: calc(16px / 2); margin-top: calc(16px / 2); } }',
+  '.framer-cbDOe.framer-1hvelkf, .framer-cbDOe .framer-1hvelkf { display: block; }',
+  '.framer-cbDOe.framer-1jytkn { align-content: center; align-items: center; display: flex; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: 700px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1200px; }',
+  '.framer-cbDOe .framer-tssug1 { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 10px; height: 100%; justify-content: flex-end; overflow: hidden; padding: 0px; position: relative; width: 1px; }',
+  '.framer-cbDOe .framer-cae65x { align-content: flex-start; align-items: flex-start; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: 100%; justify-content: center; max-width: 584px; padding: 0px 0px 0px 40px; position: relative; width: 1px; }',
+  '.framer-cbDOe .framer-1ljohf0 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: 110px; justify-content: flex-start; overflow: visible; padding: 24px 0px 0px 0px; position: relative; width: 349px; }',
+  '.framer-cbDOe .framer-1l0o523 { flex: 1 0 0px; height: 15px; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; z-index: 1; }',
+  '.framer-cbDOe .framer-1vehtfq { flex: none; height: 2px; position: relative; width: 100px; }',
+  '.framer-cbDOe .framer-1fy5zd7 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }',
+  '.framer-cbDOe .framer-1t5czg, .framer-cbDOe .framer-8xsnlp { flex: none; height: auto; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }',
+  '.framer-cbDOe .framer-t7znx8 { flex: none; height: auto; max-width: 448px; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }',
+  '.framer-cbDOe .framer-1u1c0u6 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 8px 0px 8px 0px; position: relative; width: 100%; }',
+  '.framer-cbDOe .framer-1qqrrla-container { flex: none; height: auto; position: relative; width: auto; }',
+  '.framer-cbDOe .framer-d2vfth-container { flex: none; height: 48px; position: relative; width: 160px; }',
+  '.framer-cbDOe .framer-8432z2 { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 20px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-cbDOe .framer-1gbctds { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 24px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-cbDOe .framer-1wyiw13 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: 20px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 20px; }',
+  '.framer-cbDOe .framer-1m8obji { flex: none; height: 20px; position: relative; text-decoration: none; width: 20px; }',
+  '.framer-cbDOe .framer-38sqpf { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: 100%; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1px; }',
+  '.framer-cbDOe .framer-zvzl2s { align-content: center; align-items: center; display: flex; flex: 1 0 0px; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 100%; justify-content: center; overflow: hidden; padding: 0px 0px 0px 64px; position: relative; width: 1px; }',
+  '.framer-cbDOe .framer-kqn8jt { flex: 1 0 0px; height: 1px; overflow: hidden; position: relative; width: 100%; }',
+  '.framer-cbDOe .framer-1iom8ah { bottom: 0px; flex: none; height: 140px; left: 0px; overflow: hidden; position: absolute; width: 100px; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cbDOe.framer-1jytkn, .framer-cbDOe .framer-tssug1, .framer-cbDOe .framer-cae65x, .framer-cbDOe .framer-1ljohf0, .framer-cbDOe .framer-1u1c0u6, .framer-cbDOe .framer-8432z2, .framer-cbDOe .framer-1gbctds, .framer-cbDOe .framer-1wyiw13, .framer-cbDOe .framer-38sqpf, .framer-cbDOe .framer-zvzl2s { gap: 0px; } .framer-cbDOe.framer-1jytkn > *, .framer-cbDOe .framer-38sqpf > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } .framer-cbDOe.framer-1jytkn > :first-child, .framer-cbDOe .framer-tssug1 > :first-child, .framer-cbDOe .framer-1ljohf0 > :first-child, .framer-cbDOe .framer-1u1c0u6 > :first-child, .framer-cbDOe .framer-1gbctds > :first-child, .framer-cbDOe .framer-1wyiw13 > :first-child, .framer-cbDOe .framer-38sqpf > :first-child { margin-left: 0px; } .framer-cbDOe.framer-1jytkn > :last-child, .framer-cbDOe .framer-tssug1 > :last-child, .framer-cbDOe .framer-1ljohf0 > :last-child, .framer-cbDOe .framer-1u1c0u6 > :last-child, .framer-cbDOe .framer-1gbctds > :last-child, .framer-cbDOe .framer-1wyiw13 > :last-child, .framer-cbDOe .framer-38sqpf > :last-child { margin-right: 0px; } .framer-cbDOe .framer-tssug1 > * { margin: 0px; margin-left: calc(10px / 2); margin-right: calc(10px / 2); } .framer-cbDOe .framer-cae65x > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-cbDOe .framer-cae65x > :first-child, .framer-cbDOe .framer-8432z2 > :first-child, .framer-cbDOe .framer-zvzl2s > :first-child { margin-top: 0px; } .framer-cbDOe .framer-cae65x > :last-child, .framer-cbDOe .framer-8432z2 > :last-child, .framer-cbDOe .framer-zvzl2s > :last-child { margin-bottom: 0px; } .framer-cbDOe .framer-1ljohf0 > *, .framer-cbDOe .framer-1u1c0u6 > * { margin: 0px; margin-left: calc(16px / 2); margin-right: calc(16px / 2); } .framer-cbDOe .framer-8432z2 > * { margin: 0px; margin-bottom: calc(20px / 2); margin-top: calc(20px / 2); } .framer-cbDOe .framer-1gbctds > * { margin: 0px; margin-left: calc(24px / 2); margin-right: calc(24px / 2); } .framer-cbDOe .framer-1wyiw13 > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-cbDOe .framer-zvzl2s > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } }',
+  '.framer-cbDOe.framer-v-1fsh02y.framer-1jytkn { height: min-content; width: 810px; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-tssug1 { height: 840px; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-cae65x, .framer-cbDOe.framer-v-1fsh02y .framer-38sqpf { height: min-content; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-1ljohf0 { height: 83px; order: 0; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-1l0o523 { order: 0; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-1t5czg, .framer-cbDOe.framer-v-19k6tyf .framer-1t5czg { order: 1; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-t7znx8, .framer-cbDOe.framer-v-19k6tyf .framer-t7znx8 { order: 2; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-1u1c0u6 { order: 3; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-8432z2, .framer-cbDOe.framer-v-19k6tyf .framer-8432z2 { order: 4; }',
+  '.framer-cbDOe.framer-v-1fsh02y .framer-zvzl2s { height: 700px; padding: 0px 0px 0px 16px; }',
+  '.framer-cbDOe.framer-v-19k6tyf.framer-1jytkn { flex-direction: column; gap: 64px; height: min-content; width: 357px; }',
+  '.framer-cbDOe.framer-v-19k6tyf .framer-tssug1 { flex: none; flex-direction: column; height: min-content; width: 100%; }',
+  '.framer-cbDOe.framer-v-19k6tyf .framer-cae65x { flex: none; height: min-content; order: 0; padding: 0px 20px 11px 20px; width: 100%; }',
+  '.framer-cbDOe.framer-v-19k6tyf .framer-1ljohf0 { gap: 0px; height: 64px; order: 0; padding: 0px; width: 336px; }',
+  '.framer-cbDOe.framer-v-19k6tyf .framer-1u1c0u6 { flex-direction: column; order: 3; }',
+  '.framer-cbDOe.framer-v-19k6tyf .framer-1gbctds { justify-content: center; }',
+  '.framer-cbDOe.framer-v-19k6tyf .framer-38sqpf { flex: none; gap: 0px; height: 417px; width: 100%; }',
+  '.framer-cbDOe.framer-v-19k6tyf .framer-zvzl2s { gap: 0px; padding: 0px; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cbDOe.framer-v-19k6tyf.framer-1jytkn, .framer-cbDOe.framer-v-19k6tyf .framer-tssug1, .framer-cbDOe.framer-v-19k6tyf .framer-1ljohf0, .framer-cbDOe.framer-v-19k6tyf .framer-1u1c0u6, .framer-cbDOe.framer-v-19k6tyf .framer-38sqpf, .framer-cbDOe.framer-v-19k6tyf .framer-zvzl2s { gap: 0px; } .framer-cbDOe.framer-v-19k6tyf.framer-1jytkn > * { margin: 0px; margin-bottom: calc(64px / 2); margin-top: calc(64px / 2); } .framer-cbDOe.framer-v-19k6tyf.framer-1jytkn > :first-child, .framer-cbDOe.framer-v-19k6tyf .framer-tssug1 > :first-child, .framer-cbDOe.framer-v-19k6tyf .framer-1u1c0u6 > :first-child, .framer-cbDOe.framer-v-19k6tyf .framer-zvzl2s > :first-child { margin-top: 0px; } .framer-cbDOe.framer-v-19k6tyf.framer-1jytkn > :last-child, .framer-cbDOe.framer-v-19k6tyf .framer-tssug1 > :last-child, .framer-cbDOe.framer-v-19k6tyf .framer-1u1c0u6 > :last-child, .framer-cbDOe.framer-v-19k6tyf .framer-zvzl2s > :last-child { margin-bottom: 0px; } .framer-cbDOe.framer-v-19k6tyf .framer-tssug1 > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-cbDOe.framer-v-19k6tyf .framer-1ljohf0 > *, .framer-cbDOe.framer-v-19k6tyf .framer-38sqpf > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-cbDOe.framer-v-19k6tyf .framer-1ljohf0 > :first-child, .framer-cbDOe.framer-v-19k6tyf .framer-38sqpf > :first-child { margin-left: 0px; } .framer-cbDOe.framer-v-19k6tyf .framer-1ljohf0 > :last-child, .framer-cbDOe.framer-v-19k6tyf .framer-38sqpf > :last-child { margin-right: 0px; } .framer-cbDOe.framer-v-19k6tyf .framer-1u1c0u6 > * { margin: 0px; margin-bottom: calc(16px / 2); margin-top: calc(16px / 2); } .framer-cbDOe.framer-v-19k6tyf .framer-zvzl2s > * { margin: 0px; margin-bottom: calc(0px / 2); margin-top: calc(0px / 2); } }',
   ...css,
   ...css5,
   ...css2,
   ...css4,
   ...css3,
 ];
-var FramerzA1FP2A_7 = withCSS3(Component3, css8, 'framer-bS9J3',);
+var FramerzA1FP2A_7 = withCSS3(Component3, css8, 'framer-cbDOe',);
 var stdin_default3 = FramerzA1FP2A_7;
 FramerzA1FP2A_7.displayName = 'Hero Section';
 FramerzA1FP2A_7.defaultProps = { height: 700, width: 1200, };

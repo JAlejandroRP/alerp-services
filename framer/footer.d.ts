@@ -13,7 +13,7 @@ export interface Props {
     width?: any
     height?: any
     layoutId?: string
-
+    "variant"?: 'Desktop' | 'Phone'
 }
 
 const FooterFramerComponent = (props: Props) => any

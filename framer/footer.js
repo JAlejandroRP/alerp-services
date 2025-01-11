@@ -8,7 +8,7 @@ import { defaultEvents, getIconSelection, NullState, useIconSelection, } from '.
 import { Fragment as Fragment2, } from 'react';
 import { ContextProviders, } from 'unframer';
 
-// https :https://framerusercontent.com/modules/7ePPGX5bRPXa6OyghavN/vHfPy69pJvedCcPAtiDp/jBGv_AXCg.js
+// https :https://framerusercontent.com/modules/7ePPGX5bRPXa6OyghavN/SkpXzaeeEQ5ej4RhyNm8/jBGv_AXCg.js
 import { jsx as _jsx2, jsxs as _jsxs, } from 'react/jsx-runtime';
 import {
   addFonts,
@@ -1945,11 +1945,11 @@ var css2 = [
 ];
 var className2 = 'framer-lnPgK';
 
-// https :https://framerusercontent.com/modules/7ePPGX5bRPXa6OyghavN/vHfPy69pJvedCcPAtiDp/jBGv_AXCg.js
+// https :https://framerusercontent.com/modules/7ePPGX5bRPXa6OyghavN/SkpXzaeeEQ5ej4RhyNm8/jBGv_AXCg.js
 var MaterialFonts = getFonts(Icon,);
 var MotionFooterWithFXWithOptimizedAppearEffect = withOptimizedAppearEffect(withFX(motion2.footer,),);
 var cycleOrder = ['qWsN2eELL', 'fK5maGmnK',];
-var serializationHash = 'framer-G4KyV';
+var serializationHash = 'framer-8yRaF';
 var variantClassNames = { fK5maGmnK: 'framer-v-wydg57', qWsN2eELL: 'framer-v-ncp6n', };
 function addPropertyOverrides(overrides, ...variants) {
   const nextOverrides = {};
@@ -2080,7 +2080,7 @@ var Component = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                         '--framer-text-color': 'var(--extracted-r6o4lv, rgb(255, 255, 255))',
                         '--framer-text-transform': 'uppercase',
                       },
-                      children: 'Cometa 530, Morelos, 78130 San Luis Potos\xED, S.L.P.',
+                      children: 'Cometa 530, San Luis Potos\xED, S.L.P.',
                     },),
                   },),
                   className: 'framer-p5wmd9',
@@ -2105,7 +2105,7 @@ var Component = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                               '--framer-text-color': 'var(--extracted-r6o4lv, rgb(255, 255, 255))',
                               '--framer-text-transform': 'uppercase',
                             },
-                            children: 'Cometa 530, Morelos, 78130 San Luis Potos\xED, S.L.P.',
+                            children: 'Cometa 530, San Luis Potos\xED, S.L.P.',
                           },),
                         },),
                         transformTemplate: transformTemplate2,
@@ -2240,30 +2240,30 @@ var Component = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
 },);
 var css3 = [
   '@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }',
-  '.framer-G4KyV.framer-19k5igg, .framer-G4KyV .framer-19k5igg { display: block; }',
-  '.framer-G4KyV.framer-ncp6n { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 80px 40px 64px 40px; position: relative; width: 1200px; }',
-  '.framer-G4KyV .framer-1oit3rd { flex: none; height: 43px; overflow: visible; position: relative; width: 1095px; }',
-  '.framer-G4KyV .framer-1uqym7b-container { bottom: -104px; flex: none; height: 24px; left: calc(49.9543378995434% - 34px / 2); position: absolute; width: 34px; }',
-  '.framer-G4KyV .framer-p5wmd9 { flex: none; height: auto; left: 50%; position: absolute; top: 48%; white-space: pre-wrap; width: 667px; word-break: break-word; word-wrap: break-word; }',
-  '.framer-G4KyV .framer-1x0nhg3 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 48px; height: min-content; justify-content: center; max-width: 1120px; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-G4KyV .framer-1911k8a { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 48px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-G4KyV .framer-1asmezz { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-G4KyV .framer-1cz9h8n { cursor: pointer; flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
-  '.framer-G4KyV .framer-1g32max { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: min-content; }',
-  '.framer-G4KyV .framer-ql8yzf, .framer-G4KyV .framer-auieli { flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
-  '.framer-G4KyV .framer-1hutn5v { flex: none; height: 1px; overflow: hidden; position: relative; width: 100%; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-G4KyV.framer-ncp6n, .framer-G4KyV .framer-1x0nhg3, .framer-G4KyV .framer-1911k8a, .framer-G4KyV .framer-1g32max { gap: 0px; } .framer-G4KyV.framer-ncp6n > * { margin: 0px; margin-bottom: calc(80px / 2); margin-top: calc(80px / 2); } .framer-G4KyV.framer-ncp6n > :first-child, .framer-G4KyV .framer-1x0nhg3 > :first-child, .framer-G4KyV .framer-1911k8a > :first-child { margin-top: 0px; } .framer-G4KyV.framer-ncp6n > :last-child, .framer-G4KyV .framer-1x0nhg3 > :last-child, .framer-G4KyV .framer-1911k8a > :last-child { margin-bottom: 0px; } .framer-G4KyV .framer-1x0nhg3 > *, .framer-G4KyV .framer-1911k8a > * { margin: 0px; margin-bottom: calc(48px / 2); margin-top: calc(48px / 2); } .framer-G4KyV .framer-1g32max > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } .framer-G4KyV .framer-1g32max > :first-child { margin-left: 0px; } .framer-G4KyV .framer-1g32max > :last-child { margin-right: 0px; } }',
-  '.framer-G4KyV.framer-v-wydg57.framer-ncp6n { gap: 64px; padding: 64px 40px 64px 40px; width: 375px; }',
-  '.framer-G4KyV.framer-v-wydg57 .framer-1oit3rd { height: 85px; order: 0; width: 374px; }',
-  '.framer-G4KyV.framer-v-wydg57 .framer-p5wmd9 { bottom: 12px; left: 50%; top: unset; width: 308px; }',
-  '.framer-G4KyV.framer-v-wydg57 .framer-1x0nhg3 { order: 1; }',
-  '.framer-G4KyV.framer-v-wydg57 .framer-1asmezz { flex-direction: column; gap: 40px; justify-content: flex-start; }',
-  '.framer-G4KyV.framer-v-wydg57 .framer-1g32max { flex-direction: column; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-G4KyV.framer-v-wydg57.framer-ncp6n, .framer-G4KyV.framer-v-wydg57 .framer-1asmezz, .framer-G4KyV.framer-v-wydg57 .framer-1g32max { gap: 0px; } .framer-G4KyV.framer-v-wydg57.framer-ncp6n > * { margin: 0px; margin-bottom: calc(64px / 2); margin-top: calc(64px / 2); } .framer-G4KyV.framer-v-wydg57.framer-ncp6n > :first-child, .framer-G4KyV.framer-v-wydg57 .framer-1asmezz > :first-child, .framer-G4KyV.framer-v-wydg57 .framer-1g32max > :first-child { margin-top: 0px; } .framer-G4KyV.framer-v-wydg57.framer-ncp6n > :last-child, .framer-G4KyV.framer-v-wydg57 .framer-1asmezz > :last-child, .framer-G4KyV.framer-v-wydg57 .framer-1g32max > :last-child { margin-bottom: 0px; } .framer-G4KyV.framer-v-wydg57 .framer-1asmezz > * { margin: 0px; margin-bottom: calc(40px / 2); margin-top: calc(40px / 2); } .framer-G4KyV.framer-v-wydg57 .framer-1g32max > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } }',
+  '.framer-8yRaF.framer-19k5igg, .framer-8yRaF .framer-19k5igg { display: block; }',
+  '.framer-8yRaF.framer-ncp6n { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 80px; height: min-content; justify-content: flex-start; overflow: hidden; padding: 80px 40px 64px 40px; position: relative; width: 1200px; }',
+  '.framer-8yRaF .framer-1oit3rd { flex: none; height: 43px; overflow: visible; position: relative; width: 1095px; }',
+  '.framer-8yRaF .framer-1uqym7b-container { bottom: -104px; flex: none; height: 24px; left: calc(49.9543378995434% - 34px / 2); position: absolute; width: 34px; }',
+  '.framer-8yRaF .framer-p5wmd9 { flex: none; height: auto; left: 50%; position: absolute; top: 48%; white-space: pre-wrap; width: 667px; word-break: break-word; word-wrap: break-word; }',
+  '.framer-8yRaF .framer-1x0nhg3 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 48px; height: min-content; justify-content: center; max-width: 1120px; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-8yRaF .framer-1911k8a { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 48px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-8yRaF .framer-1asmezz { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-8yRaF .framer-1cz9h8n { cursor: pointer; flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
+  '.framer-8yRaF .framer-1g32max { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: min-content; }',
+  '.framer-8yRaF .framer-ql8yzf, .framer-8yRaF .framer-auieli { flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
+  '.framer-8yRaF .framer-1hutn5v { flex: none; height: 1px; overflow: hidden; position: relative; width: 100%; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-8yRaF.framer-ncp6n, .framer-8yRaF .framer-1x0nhg3, .framer-8yRaF .framer-1911k8a, .framer-8yRaF .framer-1g32max { gap: 0px; } .framer-8yRaF.framer-ncp6n > * { margin: 0px; margin-bottom: calc(80px / 2); margin-top: calc(80px / 2); } .framer-8yRaF.framer-ncp6n > :first-child, .framer-8yRaF .framer-1x0nhg3 > :first-child, .framer-8yRaF .framer-1911k8a > :first-child { margin-top: 0px; } .framer-8yRaF.framer-ncp6n > :last-child, .framer-8yRaF .framer-1x0nhg3 > :last-child, .framer-8yRaF .framer-1911k8a > :last-child { margin-bottom: 0px; } .framer-8yRaF .framer-1x0nhg3 > *, .framer-8yRaF .framer-1911k8a > * { margin: 0px; margin-bottom: calc(48px / 2); margin-top: calc(48px / 2); } .framer-8yRaF .framer-1g32max > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } .framer-8yRaF .framer-1g32max > :first-child { margin-left: 0px; } .framer-8yRaF .framer-1g32max > :last-child { margin-right: 0px; } }',
+  '.framer-8yRaF.framer-v-wydg57.framer-ncp6n { gap: 64px; padding: 64px 40px 64px 40px; width: 375px; }',
+  '.framer-8yRaF.framer-v-wydg57 .framer-1oit3rd { height: 85px; order: 0; width: 374px; }',
+  '.framer-8yRaF.framer-v-wydg57 .framer-p5wmd9 { bottom: 12px; left: 50%; top: unset; width: 308px; }',
+  '.framer-8yRaF.framer-v-wydg57 .framer-1x0nhg3 { order: 1; }',
+  '.framer-8yRaF.framer-v-wydg57 .framer-1asmezz { flex-direction: column; gap: 40px; justify-content: flex-start; }',
+  '.framer-8yRaF.framer-v-wydg57 .framer-1g32max { flex-direction: column; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-8yRaF.framer-v-wydg57.framer-ncp6n, .framer-8yRaF.framer-v-wydg57 .framer-1asmezz, .framer-8yRaF.framer-v-wydg57 .framer-1g32max { gap: 0px; } .framer-8yRaF.framer-v-wydg57.framer-ncp6n > * { margin: 0px; margin-bottom: calc(64px / 2); margin-top: calc(64px / 2); } .framer-8yRaF.framer-v-wydg57.framer-ncp6n > :first-child, .framer-8yRaF.framer-v-wydg57 .framer-1asmezz > :first-child, .framer-8yRaF.framer-v-wydg57 .framer-1g32max > :first-child { margin-top: 0px; } .framer-8yRaF.framer-v-wydg57.framer-ncp6n > :last-child, .framer-8yRaF.framer-v-wydg57 .framer-1asmezz > :last-child, .framer-8yRaF.framer-v-wydg57 .framer-1g32max > :last-child { margin-bottom: 0px; } .framer-8yRaF.framer-v-wydg57 .framer-1asmezz > * { margin: 0px; margin-bottom: calc(40px / 2); margin-top: calc(40px / 2); } .framer-8yRaF.framer-v-wydg57 .framer-1g32max > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } }',
   ...css,
   ...css2,
 ];
-var FramerjBGv_AXCg = withCSS(Component, css3, 'framer-G4KyV',);
+var FramerjBGv_AXCg = withCSS(Component, css3, 'framer-8yRaF',);
 var stdin_default = FramerjBGv_AXCg;
 FramerjBGv_AXCg.displayName = 'Footer';
 FramerjBGv_AXCg.defaultProps = { height: 340, width: 1200, };

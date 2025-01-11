@@ -9,7 +9,7 @@ import { className, className2, css, css2, fonts, fonts2, } from './chunk-AEXN24
 import { Fragment as Fragment3, } from 'react';
 import { ContextProviders, } from 'unframer';
 
-// https :https://framerusercontent.com/modules/U2Lz1OQzwBuSOtVe80AF/BPiNM9aYeypTZlUb96Cm/g0Z1UZXoH.js
+// https :https://framerusercontent.com/modules/U2Lz1OQzwBuSOtVe80AF/dNnKcg62yLTbVI898N0H/g0Z1UZXoH.js
 import { jsx as _jsx2, jsxs as _jsxs, } from 'react/jsx-runtime';
 import {
   addFonts as addFonts2,
@@ -234,11 +234,11 @@ addFonts(FramerHq8Cvmh7d, [{
   },],
 },], { supportsExplicitInterCodegen: true, },);
 
-// https :https://framerusercontent.com/modules/U2Lz1OQzwBuSOtVe80AF/BPiNM9aYeypTZlUb96Cm/g0Z1UZXoH.js
+// https :https://framerusercontent.com/modules/U2Lz1OQzwBuSOtVe80AF/dNnKcg62yLTbVI898N0H/g0Z1UZXoH.js
 var SecondaryButtonWhiteFonts = getFonts(stdin_default,);
 var ImageWithFXWithOptimizedAppearEffect = withOptimizedAppearEffect(withFX(Image,),);
 var cycleOrder2 = ['SShCIfjM8', 'kWUrJuDav', 'bqTYGhPMj',];
-var serializationHash2 = 'framer-OhbPc';
+var serializationHash2 = 'framer-vQ94e';
 var variantClassNames2 = { bqTYGhPMj: 'framer-v-plt1bo', kWUrJuDav: 'framer-v-hz0soi', SShCIfjM8: 'framer-v-1awg0if', };
 function addPropertyOverrides2(overrides, ...variants) {
   const nextOverrides = {};
@@ -421,7 +421,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                             bqTYGhPMj: {
                               y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 80 +
                                 ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
-                                      2368) - 160 - 828) / 2 + 0 + 0) +
+                                      1886) - 160 - 1260) / 2 + 0 + 0) +
                                 0 + 0 + 0 + 112 + 0 + 96,
                             },
                             kWUrJuDav: {
@@ -538,16 +538,16 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                                 240 - 902) / 2 + 0 + 0) +
                           0 + 402 + 0 + 0,
                       ),
-                      pixelHeight: 720,
-                      pixelWidth: 960,
+                      pixelHeight: 600,
+                      pixelWidth: 800,
                       positionX: 'center',
                       positionY: 'center',
                       sizes: `calc(max((min(${
                         (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
                       }, 1120px) - 144px) / 3, 200px) * 2 + 32px)`,
-                      src: 'https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg',
+                      src: 'https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg',
                       srcSet:
-                        'https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg 960w',
+                        'https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg 800w',
                     },
                     className: 'framer-8txre3',
                     'data-framer-appear-id': '8txre3',
@@ -564,19 +564,19 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                             loading: getLoadingLazyAtYPosition(
                               ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 80 +
                                 ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
-                                      2368) - 160 - 828) / 2 + 0 + 0) +
+                                      1886) - 160 - 1260) / 2 + 0 + 0) +
                                 0 + 628 + 0 + 0,
                             ),
-                            pixelHeight: 720,
-                            pixelWidth: 960,
+                            pixelHeight: 600,
+                            pixelWidth: 800,
                             positionX: 'center',
                             positionY: 'center',
                             sizes: `max(min(${
                               (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
                             }, 1120px) - 40px, 200px)`,
-                            src: 'https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg',
+                            src: 'https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg',
                             srcSet:
-                              'https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg 960w',
+                              'https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg 800w',
                           },
                         },
                         kWUrJuDav: {
@@ -588,16 +588,16 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                                       1364) - 200 - 982) / 2 + 0 + 0) +
                                 0 + 482 + 0 + 0,
                             ),
-                            pixelHeight: 720,
-                            pixelWidth: 960,
+                            pixelHeight: 600,
+                            pixelWidth: 800,
                             positionX: 'center',
                             positionY: 'center',
                             sizes: `calc(max((min(${
                               (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
                             }, 1120px) - 144px) / 3, 200px) * 2 + 32px)`,
-                            src: 'https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg',
+                            src: 'https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg',
                             srcSet:
-                              'https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/UsS8UPOsnf4kBtx8t0L9gKXRvOg.jpg 960w',
+                              'https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/u5hoYzpvcKUeb7OQoE35qWgeDiI.jpg 800w',
                           },
                         },
                       },
@@ -632,7 +632,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                       },),
                     ],
                   },),
-                  isDisplayed() && /* @__PURE__ */ _jsx2(ImageWithFXWithOptimizedAppearEffect, {
+                  /* @__PURE__ */ _jsx2(ImageWithFXWithOptimizedAppearEffect, {
                     __perspectiveFX: false,
                     __smartComponentFX: true,
                     __targetOpacity: 1,
@@ -645,16 +645,16 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                                 240 - 902) / 2 + 0 + 0) +
                           0 + 402 + 0 + 0,
                       ),
-                      pixelHeight: 768,
-                      pixelWidth: 1024,
+                      pixelHeight: 456,
+                      pixelWidth: 948,
                       positionX: 'center',
                       positionY: 'center',
                       sizes: `max((min(${
                         (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
                       }, 1120px) - 144px) / 3, 200px)`,
-                      src: 'https://framerusercontent.com/images/QH9KCwtFHk1vIj79kT435UOCFI.jpeg',
+                      src: 'https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg',
                       srcSet:
-                        'https://framerusercontent.com/images/QH9KCwtFHk1vIj79kT435UOCFI.jpeg?scale-down-to=512 512w,https://framerusercontent.com/images/QH9KCwtFHk1vIj79kT435UOCFI.jpeg 1024w',
+                        'https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg 948w',
                     },
                     className: 'framer-m57kpo',
                     'data-framer-appear-id': 'm57kpo',
@@ -665,6 +665,27 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                     optimized: true,
                     ...addPropertyOverrides2(
                       {
+                        bqTYGhPMj: {
+                          background: {
+                            alt: 'Luxury custom chair',
+                            loading: getLoadingLazyAtYPosition(
+                              ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 80 +
+                                ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
+                                      1886) - 160 - 1260) / 2 + 0 + 0) +
+                                0 + 628 + 0 + 216,
+                            ),
+                            pixelHeight: 456,
+                            pixelWidth: 948,
+                            positionX: 'center',
+                            positionY: 'center',
+                            sizes: `max(min(${
+                              (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
+                            }, 1120px) - 40px, 200px)`,
+                            src: 'https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg',
+                            srcSet:
+                              'https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg 948w',
+                          },
+                        },
                         kWUrJuDav: {
                           background: {
                             alt: 'Luxury custom chair',
@@ -674,16 +695,16 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                                       1364) - 200 - 982) / 2 + 0 + 0) +
                                 0 + 482 + 0 + 0,
                             ),
-                            pixelHeight: 768,
-                            pixelWidth: 1024,
+                            pixelHeight: 456,
+                            pixelWidth: 948,
                             positionX: 'center',
                             positionY: 'center',
                             sizes: `max((min(${
                               (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
                             }, 1120px) - 144px) / 3, 200px)`,
-                            src: 'https://framerusercontent.com/images/QH9KCwtFHk1vIj79kT435UOCFI.jpeg',
+                            src: 'https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg',
                             srcSet:
-                              'https://framerusercontent.com/images/QH9KCwtFHk1vIj79kT435UOCFI.jpeg?scale-down-to=512 512w,https://framerusercontent.com/images/QH9KCwtFHk1vIj79kT435UOCFI.jpeg 1024w',
+                              'https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/w7wPTZwl68tCbdN3c5F3HLeYAA.jpg 948w',
                           },
                         },
                       },
@@ -691,7 +712,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                       gestureVariant,
                     ),
                   },),
-                  isDisplayed() && /* @__PURE__ */ _jsx2(ImageWithFXWithOptimizedAppearEffect, {
+                  /* @__PURE__ */ _jsx2(ImageWithFXWithOptimizedAppearEffect, {
                     __perspectiveFX: false,
                     __smartComponentFX: true,
                     __targetOpacity: 1,
@@ -724,6 +745,27 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                     optimized: true,
                     ...addPropertyOverrides2(
                       {
+                        bqTYGhPMj: {
+                          background: {
+                            alt: 'Luxury custom sofa',
+                            loading: getLoadingLazyAtYPosition(
+                              ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 80 +
+                                ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
+                                      1886) - 160 - 1260) / 2 + 0 + 0) +
+                                0 + 628 + 0 + 432,
+                            ),
+                            pixelHeight: 1200,
+                            pixelWidth: 1200,
+                            positionX: 'center',
+                            positionY: 'center',
+                            sizes: `max(min(${
+                              (componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.width) || '100vw'
+                            }, 1120px) - 40px, 200px)`,
+                            src: 'https://framerusercontent.com/images/aJ5LblWOZTeFyVgsn5lRZZ8AW94.png',
+                            srcSet:
+                              'https://framerusercontent.com/images/aJ5LblWOZTeFyVgsn5lRZZ8AW94.png?scale-down-to=512 512w,https://framerusercontent.com/images/aJ5LblWOZTeFyVgsn5lRZZ8AW94.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/aJ5LblWOZTeFyVgsn5lRZZ8AW94.png 1200w',
+                          },
+                        },
                         kWUrJuDav: {
                           background: {
                             alt: 'Luxury custom sofa',
@@ -774,44 +816,46 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
 },);
 var css5 = [
   '@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }',
-  '.framer-OhbPc.framer-1v5qc2k, .framer-OhbPc .framer-1v5qc2k { display: block; }',
-  '.framer-OhbPc.framer-1awg0if { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 120px 0px 120px 0px; position: relative; width: 1200px; }',
-  '.framer-OhbPc .framer-wwx9fr { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1120px; overflow: hidden; padding: 0px 40px 0px 40px; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-59h11r { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-56hf8j { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-anppnm { flex: none; height: 2px; position: relative; width: 64px; }',
-  '.framer-OhbPc .framer-9yur26, .framer-OhbPc .framer-dtcwgz, .framer-OhbPc .framer-1p4h7e0 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }',
-  '.framer-OhbPc .framer-opeo3p { display: grid; flex: none; gap: 32px; grid-auto-rows: minmax(0, 1fr); grid-template-columns: repeat(2, minmax(200px, 1fr)); grid-template-rows: repeat(1, minmax(0, 1fr)); height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-go4y5y { align-self: start; flex: none; height: 100%; justify-self: start; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }',
-  '.framer-OhbPc .framer-1d8pdck-container { align-self: start; flex: none; height: auto; justify-self: start; position: relative; width: fit-content; }',
-  '.framer-OhbPc .framer-1krouw8 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-fw4on4 { display: grid; flex: none; gap: 32px; grid-auto-rows: minmax(0, 1fr); grid-template-columns: repeat(3, minmax(200px, 1fr)); grid-template-rows: repeat(5, minmax(0, 1fr)); height: 500px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-8txre3 { align-self: start; flex: none; grid-column: auto / span 2; grid-row: auto / span 5; height: 100%; justify-self: start; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-1tfvb5e { bottom: 0px; flex: none; height: 100px; left: 0px; overflow: hidden; position: absolute; width: 80px; }',
-  '.framer-OhbPc .framer-1wwyevz { aspect-ratio: 0.8 / 1; bottom: 0px; flex: none; height: var(--framer-aspect-ratio-supported, 75px); overflow: hidden; position: absolute; right: 0px; width: 60px; }',
-  '.framer-OhbPc .framer-m57kpo { align-self: start; flex: none; grid-row: auto / span 2; height: 100%; justify-self: start; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-1h4yov4 { align-self: start; flex: none; grid-row: auto / span 3; height: 100%; justify-self: start; position: relative; width: 100%; }',
-  '.framer-OhbPc .framer-n67090 { bottom: 0px; flex: none; height: 100px; overflow: hidden; position: absolute; right: 0px; width: 80px; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-OhbPc.framer-1awg0if, .framer-OhbPc .framer-wwx9fr, .framer-OhbPc .framer-59h11r, .framer-OhbPc .framer-56hf8j, .framer-OhbPc .framer-1krouw8 { gap: 0px; } .framer-OhbPc.framer-1awg0if > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-OhbPc.framer-1awg0if > :first-child, .framer-OhbPc .framer-wwx9fr > :first-child, .framer-OhbPc .framer-59h11r > :first-child { margin-top: 0px; } .framer-OhbPc.framer-1awg0if > :last-child, .framer-OhbPc .framer-wwx9fr > :last-child, .framer-OhbPc .framer-59h11r > :last-child { margin-bottom: 0px; } .framer-OhbPc .framer-wwx9fr > * { margin: 0px; margin-bottom: calc(64px / 2); margin-top: calc(64px / 2); } .framer-OhbPc .framer-59h11r > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-OhbPc .framer-56hf8j > * { margin: 0px; margin-left: calc(16px / 2); margin-right: calc(16px / 2); } .framer-OhbPc .framer-56hf8j > :first-child, .framer-OhbPc .framer-1krouw8 > :first-child { margin-left: 0px; } .framer-OhbPc .framer-56hf8j > :last-child, .framer-OhbPc .framer-1krouw8 > :last-child { margin-right: 0px; } .framer-OhbPc .framer-1krouw8 > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } }',
-  '.framer-OhbPc.framer-v-hz0soi.framer-1awg0if { padding: 100px 0px 100px 0px; width: 810px; }',
-  '.framer-OhbPc.framer-v-hz0soi .framer-opeo3p { grid-auto-rows: min-content; grid-template-columns: repeat(1, minmax(200px, 1fr)); grid-template-rows: repeat(1, min-content); }',
-  '.framer-OhbPc.framer-v-hz0soi .framer-go4y5y { height: auto; }',
-  '.framer-OhbPc.framer-v-plt1bo.framer-1awg0if { padding: 80px 0px 80px 0px; width: 200px; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-wwx9fr { gap: 48px; padding: 0px 20px 0px 20px; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-anppnm { width: 48px; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-opeo3p { align-content: flex-start; align-items: flex-start; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; overflow: visible; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-go4y5y { align-self: unset; height: auto; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-1d8pdck-container { align-self: unset; width: auto; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-1krouw8 { flex-direction: column; gap: 24px; padding: 8px 0px 0px 0px; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-dtcwgz, .framer-OhbPc.framer-v-plt1bo .framer-1p4h7e0 { flex: none; width: 100%; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-fw4on4 { gap: 16px; grid-auto-rows: 200px; grid-template-columns: repeat(1, minmax(200px, 1fr)); grid-template-rows: repeat(1, 200px); height: min-content; }',
-  '.framer-OhbPc.framer-v-plt1bo .framer-8txre3 { grid-column: unset; grid-row: unset; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-OhbPc.framer-v-plt1bo .framer-wwx9fr, .framer-OhbPc.framer-v-plt1bo .framer-opeo3p, .framer-OhbPc.framer-v-plt1bo .framer-1krouw8, .framer-OhbPc.framer-v-plt1bo .framer-fw4on4 { gap: 0px; } .framer-OhbPc.framer-v-plt1bo .framer-wwx9fr > * { margin: 0px; margin-bottom: calc(48px / 2); margin-top: calc(48px / 2); } .framer-OhbPc.framer-v-plt1bo .framer-wwx9fr > :first-child, .framer-OhbPc.framer-v-plt1bo .framer-opeo3p > :first-child, .framer-OhbPc.framer-v-plt1bo .framer-1krouw8 > :first-child { margin-top: 0px; } .framer-OhbPc.framer-v-plt1bo .framer-wwx9fr > :last-child, .framer-OhbPc.framer-v-plt1bo .framer-opeo3p > :last-child, .framer-OhbPc.framer-v-plt1bo .framer-1krouw8 > :last-child { margin-bottom: 0px; } .framer-OhbPc.framer-v-plt1bo .framer-opeo3p > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-OhbPc.framer-v-plt1bo .framer-1krouw8 > * { margin: 0px; margin-bottom: calc(24px / 2); margin-top: calc(24px / 2); } .framer-OhbPc.framer-v-plt1bo .framer-fw4on4 > *, .framer-OhbPc.framer-v-plt1bo .framer-fw4on4 > :first-child, .framer-OhbPc.framer-v-plt1bo .framer-fw4on4 > :last-child { margin: 0px; } }',
+  '.framer-vQ94e.framer-1v5qc2k, .framer-vQ94e .framer-1v5qc2k { display: block; }',
+  '.framer-vQ94e.framer-1awg0if { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: min-content; justify-content: center; overflow: hidden; padding: 120px 0px 120px 0px; position: relative; width: 1200px; }',
+  '.framer-vQ94e .framer-wwx9fr { align-content: center; align-items: center; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 64px; height: min-content; justify-content: center; max-width: 1120px; overflow: hidden; padding: 0px 40px 0px 40px; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-59h11r { align-content: flex-start; align-items: flex-start; display: flex; flex: none; flex-direction: column; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-56hf8j { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 16px; height: min-content; justify-content: flex-start; overflow: visible; padding: 0px; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-anppnm { flex: none; height: 2px; position: relative; width: 64px; }',
+  '.framer-vQ94e .framer-9yur26, .framer-vQ94e .framer-dtcwgz, .framer-vQ94e .framer-1p4h7e0 { flex: 1 0 0px; height: auto; position: relative; white-space: pre-wrap; width: 1px; word-break: break-word; word-wrap: break-word; }',
+  '.framer-vQ94e .framer-opeo3p { display: grid; flex: none; gap: 32px; grid-auto-rows: minmax(0, 1fr); grid-template-columns: repeat(2, minmax(200px, 1fr)); grid-template-rows: repeat(1, minmax(0, 1fr)); height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-go4y5y { align-self: start; flex: none; height: 100%; justify-self: start; position: relative; white-space: pre-wrap; width: 100%; word-break: break-word; word-wrap: break-word; }',
+  '.framer-vQ94e .framer-1d8pdck-container { align-self: start; flex: none; height: auto; justify-self: start; position: relative; width: fit-content; }',
+  '.framer-vQ94e .framer-1krouw8 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-fw4on4 { display: grid; flex: none; gap: 32px; grid-auto-rows: minmax(0, 1fr); grid-template-columns: repeat(3, minmax(200px, 1fr)); grid-template-rows: repeat(5, minmax(0, 1fr)); height: 500px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-8txre3 { align-self: start; flex: none; grid-column: auto / span 2; grid-row: auto / span 5; height: 100%; justify-self: start; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-1tfvb5e { bottom: 0px; flex: none; height: 100px; left: 0px; overflow: hidden; position: absolute; width: 80px; }',
+  '.framer-vQ94e .framer-1wwyevz { aspect-ratio: 0.8 / 1; bottom: 0px; flex: none; height: var(--framer-aspect-ratio-supported, 75px); overflow: hidden; position: absolute; right: 0px; width: 60px; }',
+  '.framer-vQ94e .framer-m57kpo { align-self: start; flex: none; grid-row: auto / span 2; height: 100%; justify-self: start; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-1h4yov4 { align-self: start; flex: none; grid-row: auto / span 3; height: 100%; justify-self: start; position: relative; width: 100%; }',
+  '.framer-vQ94e .framer-n67090 { bottom: 0px; flex: none; height: 100px; overflow: hidden; position: absolute; right: 0px; width: 80px; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-vQ94e.framer-1awg0if, .framer-vQ94e .framer-wwx9fr, .framer-vQ94e .framer-59h11r, .framer-vQ94e .framer-56hf8j, .framer-vQ94e .framer-1krouw8 { gap: 0px; } .framer-vQ94e.framer-1awg0if > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-vQ94e.framer-1awg0if > :first-child, .framer-vQ94e .framer-wwx9fr > :first-child, .framer-vQ94e .framer-59h11r > :first-child { margin-top: 0px; } .framer-vQ94e.framer-1awg0if > :last-child, .framer-vQ94e .framer-wwx9fr > :last-child, .framer-vQ94e .framer-59h11r > :last-child { margin-bottom: 0px; } .framer-vQ94e .framer-wwx9fr > * { margin: 0px; margin-bottom: calc(64px / 2); margin-top: calc(64px / 2); } .framer-vQ94e .framer-59h11r > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-vQ94e .framer-56hf8j > * { margin: 0px; margin-left: calc(16px / 2); margin-right: calc(16px / 2); } .framer-vQ94e .framer-56hf8j > :first-child, .framer-vQ94e .framer-1krouw8 > :first-child { margin-left: 0px; } .framer-vQ94e .framer-56hf8j > :last-child, .framer-vQ94e .framer-1krouw8 > :last-child { margin-right: 0px; } .framer-vQ94e .framer-1krouw8 > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } }',
+  '.framer-vQ94e.framer-v-hz0soi.framer-1awg0if { padding: 100px 0px 100px 0px; width: 810px; }',
+  '.framer-vQ94e.framer-v-hz0soi .framer-opeo3p { grid-auto-rows: min-content; grid-template-columns: repeat(1, minmax(200px, 1fr)); grid-template-rows: repeat(1, min-content); }',
+  '.framer-vQ94e.framer-v-hz0soi .framer-go4y5y { height: auto; }',
+  '.framer-vQ94e.framer-v-plt1bo.framer-1awg0if { padding: 80px 0px 80px 0px; width: 382px; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-wwx9fr { gap: 48px; padding: 0px 20px 0px 20px; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-anppnm { width: 48px; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-opeo3p { align-content: flex-start; align-items: flex-start; display: flex; flex-direction: column; flex-wrap: nowrap; justify-content: flex-start; overflow: visible; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-go4y5y { align-self: unset; height: auto; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-1d8pdck-container { align-self: unset; width: auto; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-1krouw8 { flex-direction: column; gap: 24px; padding: 8px 0px 0px 0px; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-dtcwgz { flex: none; order: 0; width: 100%; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-1p4h7e0 { flex: none; order: 1; width: 100%; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-fw4on4 { gap: 16px; grid-auto-rows: 200px; grid-template-columns: repeat(1, minmax(200px, 1fr)); grid-template-rows: repeat(1, 200px); height: min-content; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-8txre3 { grid-column: unset; grid-row: unset; }',
+  '.framer-vQ94e.framer-v-plt1bo .framer-m57kpo, .framer-vQ94e.framer-v-plt1bo .framer-1h4yov4 { grid-row: unset; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-vQ94e.framer-v-plt1bo .framer-wwx9fr, .framer-vQ94e.framer-v-plt1bo .framer-opeo3p, .framer-vQ94e.framer-v-plt1bo .framer-1krouw8, .framer-vQ94e.framer-v-plt1bo .framer-fw4on4 { gap: 0px; } .framer-vQ94e.framer-v-plt1bo .framer-wwx9fr > * { margin: 0px; margin-bottom: calc(48px / 2); margin-top: calc(48px / 2); } .framer-vQ94e.framer-v-plt1bo .framer-wwx9fr > :first-child, .framer-vQ94e.framer-v-plt1bo .framer-opeo3p > :first-child, .framer-vQ94e.framer-v-plt1bo .framer-1krouw8 > :first-child { margin-top: 0px; } .framer-vQ94e.framer-v-plt1bo .framer-wwx9fr > :last-child, .framer-vQ94e.framer-v-plt1bo .framer-opeo3p > :last-child, .framer-vQ94e.framer-v-plt1bo .framer-1krouw8 > :last-child { margin-bottom: 0px; } .framer-vQ94e.framer-v-plt1bo .framer-opeo3p > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-vQ94e.framer-v-plt1bo .framer-1krouw8 > * { margin: 0px; margin-bottom: calc(24px / 2); margin-top: calc(24px / 2); } .framer-vQ94e.framer-v-plt1bo .framer-fw4on4 > *, .framer-vQ94e.framer-v-plt1bo .framer-fw4on4 > :first-child, .framer-vQ94e.framer-v-plt1bo .framer-fw4on4 > :last-child { margin: 0px; } }',
   ...css,
   ...css2,
   ...css3,
 ];
-var Framerg0Z1UZXoH = withCSS2(Component2, css5, 'framer-OhbPc',);
+var Framerg0Z1UZXoH = withCSS2(Component2, css5, 'framer-vQ94e',);
 var stdin_default2 = Framerg0Z1UZXoH;
 Framerg0Z1UZXoH.displayName = 'About Section';
 Framerg0Z1UZXoH.defaultProps = { height: 1284, width: 1200, };
