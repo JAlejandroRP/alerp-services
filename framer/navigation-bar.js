@@ -7,7 +7,7 @@
 import { Fragment as Fragment3, } from 'react';
 import { ContextProviders, } from 'unframer';
 
-// https :https://framerusercontent.com/modules/rSQZmXqXHfubijYn2vDz/lPIXJff40dAW8wAyN8zo/YyCilx55b.js
+// https :https://framerusercontent.com/modules/rSQZmXqXHfubijYn2vDz/agB3yQpPDKpZvKClmChv/YyCilx55b.js
 import { jsx as _jsx2, jsxs as _jsxs2, } from 'react/jsx-runtime';
 import {
   addFonts as addFonts2,
@@ -238,11 +238,11 @@ addFonts(FramerVdxdAKoa0, [{
   },],
 }, ...getFontsFromSharedStyle(fonts2,),], { supportsExplicitInterCodegen: true, },);
 
-// https :https://framerusercontent.com/modules/rSQZmXqXHfubijYn2vDz/lPIXJff40dAW8wAyN8zo/YyCilx55b.js
+// https :https://framerusercontent.com/modules/rSQZmXqXHfubijYn2vDz/agB3yQpPDKpZvKClmChv/YyCilx55b.js
 var NavbarLinkFonts = getFonts(stdin_default,);
 var MotionNavWithFXWithOptimizedAppearEffect = withOptimizedAppearEffect(withFX(motion2.nav,),);
 var cycleOrder2 = ['DrQGawCIG', 'shB3qavDz', 'GiXi2QuAm',];
-var serializationHash2 = 'framer-cjrgf';
+var serializationHash2 = 'framer-cjI5a';
 var variantClassNames2 = { DrQGawCIG: 'framer-v-bmckdm', GiXi2QuAm: 'framer-v-1vwf8r5', shB3qavDz: 'framer-v-84i228', };
 function addPropertyOverrides2(overrides, ...variants) {
   const nextOverrides = {};
@@ -321,6 +321,10 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
     return true;
   };
   const router = useRouter();
+  const isDisplayed2 = () => {
+    if (['shB3qavDz', 'GiXi2QuAm',].includes(baseVariant,)) return false;
+    return true;
+  };
   const defaultLayoutId = React2.useId();
   const sharedStyleClassNames = [className,];
   const componentViewport = useComponentViewport2();
@@ -490,7 +494,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                       /* @__PURE__ */ _jsx2(ComponentViewportProvider, {
                         height: 24,
                         y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 0 +
-                          ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) || 90) - 0 -
+                          ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) || 65) - 0 -
                                 24) / 2 + 0 + 0) +
                           0 + 0,
                         ...addPropertyOverrides2(
@@ -498,8 +502,8 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                             GiXi2QuAm: {
                               y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 0 +
                                 ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
-                                      249) - 0 - 248.8) / 2 + 0 + 0) +
-                                24 + 32 + 32 + 0,
+                                      220) - 0 - 220) / 2 + 0 + 0) +
+                                12 + 32 + 32 + 0,
                             },
                           },
                           baseVariant,
@@ -531,7 +535,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                       /* @__PURE__ */ _jsx2(ComponentViewportProvider, {
                         height: 24,
                         y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 0 +
-                          ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) || 90) - 0 -
+                          ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) || 65) - 0 -
                                 24) / 2 + 0 + 0) +
                           0 + 0,
                         ...addPropertyOverrides2(
@@ -539,8 +543,8 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                             GiXi2QuAm: {
                               y: ((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.y) || 0) + 0 +
                                 ((((componentViewport === null || componentViewport === void 0 ? void 0 : componentViewport.height) ||
-                                      249) - 0 - 248.8) / 2 + 0 + 0) +
-                                24 + 32 + 32 + 56,
+                                      220) - 0 - 220) / 2 + 0 + 0) +
+                                12 + 32 + 32 + 56,
                             },
                           },
                           baseVariant,
@@ -565,7 +569,7 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
                   },),
                 ],
               },),
-              /* @__PURE__ */ _jsx2(RichText2, {
+              isDisplayed2() && /* @__PURE__ */ _jsx2(RichText2, {
                 __fromCanvasComponent: true,
                 children: /* @__PURE__ */ _jsx2(React2.Fragment, {
                   children: /* @__PURE__ */ _jsx2(motion2.p, {
@@ -590,39 +594,39 @@ var Component2 = /* @__PURE__ */ React2.forwardRef(function (props, ref,) {
 },);
 var css4 = [
   '@supports (aspect-ratio: 1) { body { --framer-aspect-ratio-supported: auto; } }',
-  '.framer-cjrgf.framer-sujhas, .framer-cjrgf .framer-sujhas { display: block; }',
-  '.framer-cjrgf.framer-bmckdm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 90px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1200px; }',
-  '.framer-cjrgf .framer-1d7o1d3 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; max-width: 1200px; overflow: hidden; padding: 0px 40px 0px 40px; position: relative; width: 100%; }',
-  '.framer-cjrgf .framer-1eo2sqv { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: min-content; }',
-  '.framer-cjrgf .framer-11khnxx { --framer-custom-cursors: pointer; flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
-  '.framer-cjrgf .framer-1uyuyj { flex: none; height: 32px; overflow: hidden; position: relative; width: 32px; }',
-  '.framer-cjrgf .framer-1og28d2 { bottom: 7px; flex: none; height: 2px; left: calc(50.00000000000002% - 22px / 2); overflow: hidden; position: absolute; width: 22px; will-change: var(--framer-will-change-override, transform); }',
-  '.framer-cjrgf .framer-uuiin9 { flex: none; height: 2px; left: calc(50.00000000000002% - 22px / 2); overflow: hidden; position: absolute; top: calc(50.00000000000002% - 2px / 2); width: 22px; will-change: var(--framer-will-change-override, transform); }',
-  '.framer-cjrgf .framer-rvk9hq { flex: none; height: 2px; left: calc(50.00000000000002% - 22px / 2); overflow: hidden; position: absolute; top: 7px; width: 22px; will-change: var(--framer-will-change-override, transform); }',
-  '.framer-cjrgf .framer-10rliob { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: min-content; }',
-  '.framer-cjrgf .framer-z7baiy-container, .framer-cjrgf .framer-dnl02t-container { flex: none; height: auto; position: relative; width: auto; }',
-  '.framer-cjrgf .framer-myuh8i { flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cjrgf.framer-bmckdm, .framer-cjrgf .framer-1eo2sqv, .framer-cjrgf .framer-10rliob { gap: 0px; } .framer-cjrgf.framer-bmckdm > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-cjrgf.framer-bmckdm > :first-child { margin-top: 0px; } .framer-cjrgf.framer-bmckdm > :last-child { margin-bottom: 0px; } .framer-cjrgf .framer-1eo2sqv > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-cjrgf .framer-1eo2sqv > :first-child, .framer-cjrgf .framer-10rliob > :first-child { margin-left: 0px; } .framer-cjrgf .framer-1eo2sqv > :last-child, .framer-cjrgf .framer-10rliob > :last-child { margin-right: 0px; } .framer-cjrgf .framer-10rliob > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } }',
-  '.framer-cjrgf.framer-v-84i228.framer-bmckdm, .framer-cjrgf.framer-v-1vwf8r5.framer-bmckdm { height: min-content; width: 390px; }',
-  '.framer-cjrgf.framer-v-84i228 .framer-1d7o1d3 { padding: 24px 20px 24px 20px; }',
-  '.framer-cjrgf.framer-v-84i228 .framer-1eo2sqv { flex: 1 0 0px; gap: unset; justify-content: space-evenly; width: 1px; }',
-  '.framer-cjrgf.framer-v-84i228 .framer-1uyuyj, .framer-cjrgf.framer-v-1vwf8r5 .framer-1uyuyj { cursor: pointer; }',
-  '.framer-cjrgf.framer-v-84i228 .framer-myuh8i { white-space: pre-wrap; width: 7px; word-break: break-word; word-wrap: break-word; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cjrgf.framer-v-84i228 .framer-1eo2sqv { gap: 0px; } .framer-cjrgf.framer-v-84i228 .framer-1eo2sqv > *, .framer-cjrgf.framer-v-84i228 .framer-1eo2sqv > :first-child, .framer-cjrgf.framer-v-84i228 .framer-1eo2sqv > :last-child { margin: 0px; } }',
-  '.framer-cjrgf.framer-v-1vwf8r5 .framer-1d7o1d3 { flex-direction: column; padding: 24px 20px 32px 20px; }',
-  '.framer-cjrgf.framer-v-1vwf8r5 .framer-1eo2sqv { gap: unset; justify-content: space-around; width: 100%; }',
-  '.framer-cjrgf.framer-v-1vwf8r5 .framer-1og28d2 { bottom: unset; top: calc(50.00000000000002% - 2px / 2); }',
-  '.framer-cjrgf.framer-v-1vwf8r5 .framer-uuiin9 { left: calc(50.00000000000002% - 2px / 2); width: 2px; }',
-  '.framer-cjrgf.framer-v-1vwf8r5 .framer-rvk9hq { top: calc(50.00000000000002% - 2px / 2); }',
-  '.framer-cjrgf.framer-v-1vwf8r5 .framer-10rliob { flex-direction: column; padding: 32px 0px 32px 0px; }',
-  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cjrgf.framer-v-1vwf8r5 .framer-1d7o1d3, .framer-cjrgf.framer-v-1vwf8r5 .framer-1eo2sqv, .framer-cjrgf.framer-v-1vwf8r5 .framer-10rliob { gap: 0px; } .framer-cjrgf.framer-v-1vwf8r5 .framer-1d7o1d3 > *, .framer-cjrgf.framer-v-1vwf8r5 .framer-1d7o1d3 > :first-child, .framer-cjrgf.framer-v-1vwf8r5 .framer-1d7o1d3 > :last-child, .framer-cjrgf.framer-v-1vwf8r5 .framer-1eo2sqv > *, .framer-cjrgf.framer-v-1vwf8r5 .framer-1eo2sqv > :first-child, .framer-cjrgf.framer-v-1vwf8r5 .framer-1eo2sqv > :last-child { margin: 0px; } .framer-cjrgf.framer-v-1vwf8r5 .framer-10rliob > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-cjrgf.framer-v-1vwf8r5 .framer-10rliob > :first-child { margin-top: 0px; } .framer-cjrgf.framer-v-1vwf8r5 .framer-10rliob > :last-child { margin-bottom: 0px; } }',
+  '.framer-cjI5a.framer-sujhas, .framer-cjI5a .framer-sujhas { display: block; }',
+  '.framer-cjI5a.framer-bmckdm { align-content: center; align-items: center; display: flex; flex-direction: column; flex-wrap: nowrap; gap: 10px; height: 65px; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: 1200px; }',
+  '.framer-cjI5a .framer-1d7o1d3 { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; height: min-content; justify-content: space-between; max-width: 1200px; overflow: hidden; padding: 0px 40px 0px 40px; position: relative; width: 100%; }',
+  '.framer-cjI5a .framer-1eo2sqv { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 0px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: min-content; }',
+  '.framer-cjI5a .framer-11khnxx { --framer-custom-cursors: pointer; flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
+  '.framer-cjI5a .framer-1uyuyj { flex: none; height: 32px; overflow: hidden; position: relative; width: 32px; }',
+  '.framer-cjI5a .framer-1og28d2 { bottom: 7px; flex: none; height: 2px; left: calc(50.00000000000002% - 22px / 2); overflow: hidden; position: absolute; width: 22px; will-change: var(--framer-will-change-override, transform); }',
+  '.framer-cjI5a .framer-uuiin9 { flex: none; height: 2px; left: calc(50.00000000000002% - 22px / 2); overflow: hidden; position: absolute; top: calc(50.00000000000002% - 2px / 2); width: 22px; will-change: var(--framer-will-change-override, transform); }',
+  '.framer-cjI5a .framer-rvk9hq { flex: none; height: 2px; left: calc(50.00000000000002% - 22px / 2); overflow: hidden; position: absolute; top: 7px; width: 22px; will-change: var(--framer-will-change-override, transform); }',
+  '.framer-cjI5a .framer-10rliob { align-content: center; align-items: center; display: flex; flex: none; flex-direction: row; flex-wrap: nowrap; gap: 32px; height: min-content; justify-content: center; overflow: hidden; padding: 0px; position: relative; width: min-content; }',
+  '.framer-cjI5a .framer-z7baiy-container, .framer-cjI5a .framer-dnl02t-container { flex: none; height: auto; position: relative; width: auto; }',
+  '.framer-cjI5a .framer-myuh8i { flex: none; height: auto; position: relative; white-space: pre; width: auto; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cjI5a.framer-bmckdm, .framer-cjI5a .framer-1eo2sqv, .framer-cjI5a .framer-10rliob { gap: 0px; } .framer-cjI5a.framer-bmckdm > * { margin: 0px; margin-bottom: calc(10px / 2); margin-top: calc(10px / 2); } .framer-cjI5a.framer-bmckdm > :first-child { margin-top: 0px; } .framer-cjI5a.framer-bmckdm > :last-child { margin-bottom: 0px; } .framer-cjI5a .framer-1eo2sqv > * { margin: 0px; margin-left: calc(0px / 2); margin-right: calc(0px / 2); } .framer-cjI5a .framer-1eo2sqv > :first-child, .framer-cjI5a .framer-10rliob > :first-child { margin-left: 0px; } .framer-cjI5a .framer-1eo2sqv > :last-child, .framer-cjI5a .framer-10rliob > :last-child { margin-right: 0px; } .framer-cjI5a .framer-10rliob > * { margin: 0px; margin-left: calc(32px / 2); margin-right: calc(32px / 2); } }',
+  '.framer-cjI5a.framer-v-84i228.framer-bmckdm { height: 55px; width: 390px; }',
+  '.framer-cjI5a.framer-v-84i228 .framer-1d7o1d3 { padding: 24px 20px 24px 20px; }',
+  '.framer-cjI5a.framer-v-84i228 .framer-1eo2sqv { flex: 1 0 0px; gap: unset; justify-content: space-evenly; width: 1px; }',
+  '.framer-cjI5a.framer-v-84i228 .framer-1uyuyj, .framer-cjI5a.framer-v-1vwf8r5 .framer-1uyuyj { cursor: pointer; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cjI5a.framer-v-84i228 .framer-1eo2sqv { gap: 0px; } .framer-cjI5a.framer-v-84i228 .framer-1eo2sqv > *, .framer-cjI5a.framer-v-84i228 .framer-1eo2sqv > :first-child, .framer-cjI5a.framer-v-84i228 .framer-1eo2sqv > :last-child { margin: 0px; } }',
+  '.framer-cjI5a.framer-v-1vwf8r5.framer-bmckdm { height: min-content; width: 390px; }',
+  '.framer-cjI5a.framer-v-1vwf8r5 .framer-1d7o1d3 { flex-direction: column; order: 0; padding: 12px 20px 32px 20px; }',
+  '.framer-cjI5a.framer-v-1vwf8r5 .framer-1eo2sqv { gap: unset; justify-content: space-evenly; width: 100%; }',
+  '.framer-cjI5a.framer-v-1vwf8r5 .framer-1og28d2 { bottom: unset; top: calc(50.00000000000002% - 2px / 2); }',
+  '.framer-cjI5a.framer-v-1vwf8r5 .framer-uuiin9 { left: calc(50.00000000000002% - 2px / 2); width: 2px; }',
+  '.framer-cjI5a.framer-v-1vwf8r5 .framer-rvk9hq { top: calc(50.00000000000002% - 2px / 2); }',
+  '.framer-cjI5a.framer-v-1vwf8r5 .framer-10rliob { flex-direction: column; padding: 32px 0px 32px 0px; }',
+  '@supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) { .framer-cjI5a.framer-v-1vwf8r5 .framer-1d7o1d3, .framer-cjI5a.framer-v-1vwf8r5 .framer-1eo2sqv, .framer-cjI5a.framer-v-1vwf8r5 .framer-10rliob { gap: 0px; } .framer-cjI5a.framer-v-1vwf8r5 .framer-1d7o1d3 > *, .framer-cjI5a.framer-v-1vwf8r5 .framer-1d7o1d3 > :first-child, .framer-cjI5a.framer-v-1vwf8r5 .framer-1d7o1d3 > :last-child, .framer-cjI5a.framer-v-1vwf8r5 .framer-1eo2sqv > *, .framer-cjI5a.framer-v-1vwf8r5 .framer-1eo2sqv > :first-child, .framer-cjI5a.framer-v-1vwf8r5 .framer-1eo2sqv > :last-child { margin: 0px; } .framer-cjI5a.framer-v-1vwf8r5 .framer-10rliob > * { margin: 0px; margin-bottom: calc(32px / 2); margin-top: calc(32px / 2); } .framer-cjI5a.framer-v-1vwf8r5 .framer-10rliob > :first-child { margin-top: 0px; } .framer-cjI5a.framer-v-1vwf8r5 .framer-10rliob > :last-child { margin-bottom: 0px; } }',
   ...css,
-  '.framer-cjrgf[data-border="true"]::after, .framer-cjrgf [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
+  '.framer-cjI5a[data-border="true"]::after, .framer-cjI5a [data-border="true"]::after { content: ""; border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0); border-color: var(--border-color, none); border-style: var(--border-style, none); width: 100%; height: 100%; position: absolute; box-sizing: border-box; left: 0; top: 0; border-radius: inherit; pointer-events: none; }',
 ];
-var FramerYyCilx55b = withCSS2(Component2, css4, 'framer-cjrgf',);
+var FramerYyCilx55b = withCSS2(Component2, css4, 'framer-cjI5a',);
 var stdin_default2 = FramerYyCilx55b;
 FramerYyCilx55b.displayName = 'Navigation Bar';
-FramerYyCilx55b.defaultProps = { height: 90, width: 1200, };
+FramerYyCilx55b.defaultProps = { height: 65, width: 1200, };
 addPropertyControls2(FramerYyCilx55b, {
   variant: {
     options: ['DrQGawCIG', 'shB3qavDz', 'GiXi2QuAm',],
